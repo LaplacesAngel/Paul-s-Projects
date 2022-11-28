@@ -1,19 +1,3 @@
-#more practice problems I don't want to run in the actual program
-#print ('hello' == 'hello')
-#print ('hello' == 'hEllo')
-#print ('dog' != 'cat')
-#print (True != False)
-
-#print (51 == 000051.00000000)
-#x = 3
-#y = x + 9
-#print ((y - 2)<4)
-#y = y + 4
-#print (y)
-#y = y + 4
-#print (y)
-#y = y + 4
-#print (y)
 # will need to figure out some math on these values later, for now relying on the walletburst website linked below to get a monthly amount
 #print ("How much do you have invested right now?")
 #investedNow = input()
