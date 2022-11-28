@@ -21,7 +21,7 @@
 #liveOffamt = input()
 
 #print ("That means you will need to invest " + y " per month to retire by 50")
-print ("How much do you need to invest per month to retire when you want")
+print ("How much do you need to invest per month to retire at 50 assuming you are currently 36 (hey.. my exact age..)")
 print ("per this website? https://walletburst.com/tools/coast-fire-calc/")
 retAnswerperMonth = input ()
 num = retAnswerperMonth
@@ -29,7 +29,7 @@ converted_num = int(num)
 
 retAnswerinvestPeryear = converted_num * 12
 print ( )
-print ("That means you'll need to invest " + str(f"${retAnswerinvestPeryear:,.2f}") + " per year")
+print ("That means you'll need to invest " + str(f"${retAnswerinvestPeryear:,.2f}") + " per year assuming you are currently 36")
 print ( )
 x= retAnswerinvestPeryear
 post_tax_income = x / .3
