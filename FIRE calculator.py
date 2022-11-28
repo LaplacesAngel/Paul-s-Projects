@@ -1,3 +1,4 @@
+#more practice problems I don't want to run in the actual program
 #print ('hello' == 'hello')
 #print ('hello' == 'hEllo')
 #print ('dog' != 'cat')
@@ -13,6 +14,7 @@
 #print (y)
 #y = y + 4
 #print (y)
+# will need to figure out some math on these values later, for now relying on the walletburst website linked below to get a monthly amount
 #print ("How much do you have invested right now?")
 #investedNow = input()
 #print ("How much do you want to live off of when you retire?")
