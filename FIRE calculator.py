@@ -43,4 +43,6 @@ print ( )
 pretax_income = (int(post_tax_income) / .65)
 pretax_income_in_dollars = f"${pretax_income:,.2f}"
 retirementLive = 40000
-print ( "The amount of pretax income you will need in order to live off of " + str(f"${retirementLive:,.2f}") + " a year is " + pretax_income_in_dollars)
+print ("Assuming a 35% overall tax rate")
+print ("The amount of pretax income you will need in order to live off of is " + str(f"${retirementLive:,.2f}") + " a year is " + pretax_income_in_dollars)
+
