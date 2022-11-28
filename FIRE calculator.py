@@ -48,5 +48,5 @@ num = retirementLive
 converted_num_4 = int(num)
 print ("So to sum things up")
 print ("The amount of pretax income you'll need in order to have " + str(f"${converted_num_4:,.2f}") + " per year paid to you in retirement is ")
-print( pretax_income_in_dollars + " assuming a " + taxRate + " tax rate")
+print( pretax_income_in_dollars + " assuming a " + taxRate + " % tax rate")
 
