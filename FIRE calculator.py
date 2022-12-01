@@ -1,19 +1,11 @@
 # will need to figure out some math on these values later, for now relying on the walletburst website linked below to get a monthly amount
-#print ("How much do you have invested right now?")
-#investedNow = input()
-#print ("How much do you want to live off of when you retire?")
-#liveOffamt = input()
-
-#print ("That means you will need to invest " + y " per month to retire by 50")
-
 
 print ("How much do you need to invest per month to retire when you want?")
 print ("Go to this website which will help you answer the questions")
 print ("https://walletburst.com/tools/coast-fire-calc/")
 print ("How much did you need to end up contributing per month to reach FIRE?")
 
-retAnswerperMonth = int(input ())
-retAnswerinvestPeryear = retAnswerperMonth * 12
+retAnswerinvestPeryear = int(input ()) * 12
 
 print ( )
 print ("That means you'll need to invest " + str(f"${retAnswerinvestPeryear:,.2f}") + " per year")
@@ -41,9 +33,7 @@ print ("If you think it'll be 35% then enter 35")
 print ("(this is a good estimate number if you don't know)")
 
 taxRate = int(input())
-
-pretax_income = (int(post_tax_income) / (1 - (taxRate/100)))
-pretax_income_in_dollars = f"${pretax_income:,.2f}"
+pretax_income_in_dollars = f"${(int(post_tax_income) / (1 - (taxRate/100))):,.2f}"
 
 print ("This means you'll need a pretax income of " + pretax_income_in_dollars + " per year if you only want to invest " + str(incomePercent)  + " percent of your income per year")
 print ("How much do you want to live off per year during retirement?")
@@ -66,3 +56,5 @@ print ("You'll end up with " + str(f"${(userSalary - retAnswerinvestPeryear):,.2
 print ("Per month you'll have " + str(f"${(userSalary / 12):,.2f}") + " of take home pay")
 print ("And will need to invest " + str(f"${(retAnswerinvestPeryear / 12):,.2f}") + " per month")
 print ("Which leaves you with " + str(f"${((userSalary / 12) - (retAnswerinvestPeryear / 12)):,.2f}") + " left over to spend on everything else per month")
+
+
