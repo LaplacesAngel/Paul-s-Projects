@@ -11,9 +11,8 @@ print ("How much do you need to invest per month to retire when you want?")
 print ("Go to this website which will help you answer the questions")
 print ("https://walletburst.com/tools/coast-fire-calc/")
 print ("How much did you need to end up contributing per month to reach FIRE?")
-retAnswerperMonth = int(input ())
-#retAnswerperMonth = int(retAnswerperMonth)
 
+retAnswerperMonth = int(input ())
 retAnswerinvestPeryear = retAnswerperMonth * 12
 
 print ( )
